@@ -4,7 +4,7 @@ Hello, I'm **Egor Vedernikov.** I'm *twenty two* years old. I'm from Russia.
 
 My email: <www.veseloo21@gmail.com>
 
-[My GitHub](https://github.com/front-learner)
+My GitHub <https://github.com/front-learner>
 
 My skills:
 1. HTML. 
