@@ -18,6 +18,6 @@ My skills:
 <h1>Hello, I'm front-learner</h1>
 
 ```
-I am beginner in frontend.
+I am beginner in frontend. I am learning html, css and js at [Html Academy](https://htmlacademy.ru/study).
 
 My English level is Pre-Intermediate.
