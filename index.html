@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <title>Html, CSS & Git</title>
+</head>
+<body class="background">
+    <div class="center">
+        <header class="header-cv">
+        <h1 class="headerCv">MY CV</h1>
+        <img class="image-logo" src="/image/logo.jpg" alt="My logo">
+            <nav class="menu"><h3 class="contact">Contacts</h2>
+            <ul class="list-contact">
+            <li class="list"><a href="#" class="link">My Email - <mark>veseloo21@gmail.com</mark></a></li>
+            <li class="list"><a href="https://github.com/front-learner" class="link" target="_blank">My GitHub</a></li>
+            </ul>
+            </nav>
+        </header>
+    <main class="card-main">
+        <div class="card-grid">
+            <h2 class="header-main">About me</h2>
+                <p class="paragraph">Hello, I'm <strong>Egor Vedernikov</strong>. I'm twenty two years old. I'm from Russia.</p>
+        </div>
+        <div class="card-grid">    
+            <h2 class="header-main">Skills</h2>
+                <ul class="skills">
+                    <li class="main-list">HTML</li>
+                    <li class="main-list">CSS</li>
+                    <li class="main-list">JAVASCRIPT</li>
+                    <li class="main-list">GIT</li>
+                </ul>  
+        </div>    
+        <div class="card-grid">    
+            <h2 class="header-main">Example Code</h2>
+                <pre><code>
+    function reverse (n) {
+    n = Math.abs(n);
+    let result = '';
+    let str = String(n);
+    for (let i = 0; i < str.length; i++) {
+    result = str[i] + result;
+    }
+                return Number(result);
+              }</code></pre>
+        </div>
+        <div class="card-grid">      
+            <h2 class="header-main">Expamle project</h2>
+                <p class="paragraph"><a href="https://front-learner.github.io/rsschool-cv/cv" class="link" target="_blank">Markdown & Git</a></p>
+        </div>
+        <div class="card-grid"> 
+            <h2 class="header-main">Education</h2>
+            <p class="paragraph">I am beginner in frontend. I am learning html, css and js at <a href="https://htmlacademy.ru/" class="link" target="_blank">Html Academy</a> and <a href="https://learn.javascript.ru/" class="link" target="_blank">learn.javascript.ru</a>.</p>
+        </div>
+        <div class="card-grid">
+            <h2 class="header-main">Level of English</h2>
+            <p class="paragraph">My English level is Pre-Intermediate.</p>
+        </div>
+    </main>
+    <footer class="footer">
+            <a href="https://rs.school/js/" class="link-rs link" target="_blank">Курс «JavaScript/Front-end»</a>
+            <img src="/image/rs_school_js.svg" alt="logo-rs-school-js" class="image-rs">
+            <span>2021</span> <a href="https://github.com/front-learner" class="link" target="_blank">front-learner</a></li>
+    </footer>
+    </div>
+</body>
+</html>
